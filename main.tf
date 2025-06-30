@@ -68,6 +68,11 @@ resource "azurerm_resource_group" "rahul" {
 }
 
 
+resource "azurerm_resource_group" "sunny" {
+  name     = "bhanja"
+  location = "central india"
+}
+
 
 
 
