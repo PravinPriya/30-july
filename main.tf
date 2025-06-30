@@ -57,7 +57,15 @@ resource "azurerm_resource_group" "lokesh" {
   location = "central india"
 }
 
+resource "azurerm_resource_group" "rajesh" {
+  name     = "lokesh"
+  location = "central india"
+}
 
+resource "azurerm_resource_group" "rahul" {
+  name     = "rahul"
+  location = "central india"
+}
 
 
 
