@@ -52,6 +52,12 @@ output "kube_config" {
 }
 
 
+resource "azurerm_resource_group" "lokesh" {
+  name     = "shiva-rg5"
+  location = "central india"
+}
+
+
 
 
 
