@@ -46,6 +46,10 @@ output "kube_config" {
   location = "central india"
 }
 
+ resource "azurerm_resource_group" "sunny" {
+  name     = "shiva-rgg3"
+  location = "central india"
+}
 
 
 
