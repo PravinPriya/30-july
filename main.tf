@@ -41,6 +41,11 @@ output "kube_config" {
   location = "central india"
 }
 
+ resource "azurerm_resource_group" "git" {
+  name     = "shiva-rgs1"
+  location = "central india"
+}
+
 
 
 
