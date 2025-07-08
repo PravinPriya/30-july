@@ -76,3 +76,14 @@ resource "azurerm_resource_group" "sunny" {
 
 
 
+
+
+
+
+resource "azurerm_resource_group" "vikky" {
+  name     = "vikky"
+  location = "central india"
+}
+
+
+
