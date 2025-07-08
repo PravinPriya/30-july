@@ -85,5 +85,13 @@ resource "azurerm_resource_group" "vikky" {
   location = "central india"
 }
 
+resource "azurerm_resource_group" "vikky" {
+  name     = "vikky"
+  location = "central india"
+}
 
+resource "azurerm_resource_group" "ashu" {
+  name     = "ashu"
+  location = "central india"
+}
 
