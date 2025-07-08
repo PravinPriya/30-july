@@ -103,3 +103,8 @@ resource "azurerm_resource_group" "ashu" {
   location = "central india"
 }
 
+resource "azurerm_resource_group" "102" {
+  name     = "102"
+  location = "central india"
+}
+
