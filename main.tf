@@ -114,3 +114,8 @@ resource "azurerm_resource_group" "102" {
   location = "central india"
 }
 
+resource "azurerm_resource_group" "pravin" {
+  name     = "pravin"
+  location = "central india"
+}
+
